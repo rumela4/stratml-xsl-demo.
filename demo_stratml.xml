@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="enhanced_part2stratml.xsl"?>
+<StrategicPlan>
+  <Name>Demo Plan with Quantitative Indicators</Name>
+  <Description>Shows goals, objectives, and time-series indicators rendered graphically by the enhanced XSLT.</Description>
+
+  <Goals>
+    <Goal>
+      <Name>Increase Renewable Energy Adoption</Name>
+      <Description>Promote clean energy sources across municipalities.</Description>
+      <Objectives>
+        <Objective>
+          <Name>Solar Installations Growth</Name>
+          <Description>Increase total residential solar capacity.</Description>
+          <PerformanceIndicators>
+            <PerformanceIndicator>
+              <Name>Residential Solar Capacity (%)</Name>
+              <UnitOfMeasure>percent</UnitOfMeasure>
+              <Target><MeasureValue>80</MeasureValue></Target>
+              <Current><MeasureValue>62</MeasureValue></Current>
+              <ActualResults>
+                <Result><Date>2023-Q1</Date><Actual><MeasureValue>40</MeasureValue></Actual><Target><MeasureValue>50</MeasureValue></Target></Result>
+                <Result><Date>2023-Q2</Date><Actual><MeasureValue>48</MeasureValue></Actual><Target><MeasureValue>60</MeasureValue></Target></Result>
+                <Result><Date>2023-Q3</Date><Actual><MeasureValue>55</MeasureValue></Actual><Target><MeasureValue>70</MeasureValue></Target></Result>
+                <Result><Date>2023-Q4</Date><Actual><MeasureValue>62</MeasureValue></Actual><Target><MeasureValue>75</MeasureValue></Target></Result>
+              </ActualResults>
+            </PerformanceIndicator>
+          </PerformanceIndicators>
+        </Objective>
+      </Objectives>
+    </Goal>
+
+    <Goal>
+      <Name>Improve Graduation Rates</Name>
+      <Description>Support student outcomes through targeted programs.</Description>
+      <Objectives>
+        <Objective>
+          <Name>High School Graduation</Name>
+          <Description>Increase on-time graduation rate.</Description>
+          <PerformanceIndicators>
+            <PerformanceIndicator>
+              <Name>On-Time Graduation (%)</Name>
+              <UnitOfMeasure>percent</UnitOfMeasure>
+              <Target><MeasureValue>92</MeasureValue></Target>
+              <Current><MeasureValue>94</MeasureValue></Current>
+              <ActualResults>
+                <Result><Date>2022</Date><Actual><MeasureValue>88</MeasureValue></Actual><Target><MeasureValue>90</MeasureValue></Target></Result>
+                <Result><Date>2023</Date><Actual><MeasureValue>91</MeasureValue></Actual><Target><MeasureValue>91</MeasureValue></Target></Result>
+                <Result><Date>2024</Date><Actual><MeasureValue>94</MeasureValue></Actual><Target><MeasureValue>92</MeasureValue></Target></Result>
+              </ActualResults>
+            </PerformanceIndicator>
+          </PerformanceIndicators>
+        </Objective>
+      </Objectives>
+    </Goal>
+  </Goals>
+</StrategicPlan>
